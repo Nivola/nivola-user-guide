@@ -1985,6 +1985,15 @@ CMP Nivola 1.16.0 (2024-03-26)
 **Servizi Compute e DBaaS**
 ***************************
 
+.. _MAriaDB 11.4:
+
+2025-10-09
+----------
+
+•  Rilasciato il template DBaAS MariaDB **11.04**
+
+|
+
 .. _Oracle 19.26:
 
 2025-09-15
