@@ -1481,8 +1481,8 @@ Service Portal 1.8.0 (2020-04-10)
 *   l'utente con ruolo Master di Account ha a disposizione una nuova funzionalità con cui
     può accreditare e revocare accreditamenti all'interno della propria struttura organizzativa.
  
-*   l'utente con ruolo di BackOffice ha ha disposizione la ossibilità di visualizzare tutti  i
-    Servizi istanziati all'intefno di ogni Account.
+*   l'utente con ruolo di BackOffice ha ha disposizione la possibilità di visualizzare tutti  i
+    Servizi istanziati all'interno di ogni Account.
     
 **Changed**
 
@@ -1492,7 +1492,7 @@ Service Portal 1.8.0 (2020-04-10)
 
 *   La grafica e il contenuto del pannello Costi e Consumi di un Account sono stati rivisti e migliorati.
 
-*   Nel pannello di gestione di una Vm è  ora possibile visualizzare eventuali dischi aggiuntivi.
+*   Nel pannello di gestione di una Vm è ora possibile visualizzare eventuali dischi aggiuntivi.
 
     
 
@@ -1510,6 +1510,27 @@ Service Portal 1.8.0 (2020-04-10)
 
 **Cloud Management Platform**
 *****************************
+
+CMP Nivola 1.18.4 - patch (2026-04-23)
+--------------------------------------
+
+*Nuove funzionalità e improvement*
+
+- [ECAAS] namespace_name composed in service
+
+- minor type hint
+
+- drop v_flat_consume
+
+*Bug fixing*
+
+- fix script drop tables, views
+
+- fix list metricstypes
+
+- override get_entity for check oid (Account, ServiceInstance
+
+|
 
 CMP Nivola 1.18.3 - patch (2026-04-09)
 --------------------------------------
