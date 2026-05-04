@@ -1,0 +1,37 @@
+
+**Modificare LBAAS**
+====================
+
+Per modificare un LBAAS occorre selezionarne uno, quindi cliccare sull'icona in alto a destra "**Modifica Load Balancer**":
+
+.. image:: img/15.64_Modificare_LBAAS1.png
+
+|
+
+Espandere la sezione dell'alias da modificare, quindi effettuare le modifiche richieste.
+Alla prima modifica effettuata, il tasto **INVIA** diventerà cliccabile ed inoltre comparirà in basso il messaggio
+"**Sono state effettuate modifiche al Load Balancer e/o alle sue configurazioni, per renderle effettive è necessario completare la procedura di salvataggio**"
+
+.. image:: img/15.64_Modificare_LBAAS3.png
+
+|
+
+Al termine cliccare sul tasto in basso a destra **INVIA**
+
+|
+
+Comparirà il seguente messaggio di conferma:
+
+.. image:: img/15.64_Modificare_LBAAS4.png
+
+|
+
+Il Load Balancer in modifica assumerà il seguente stato transitorio:
+
+.. image:: img/15.64_Modificare_LBAAS5.png
+
+|
+
+Al termine della modifica assumerà lo stato "available":
+
+.. image:: img/15.64_Modificare_LBAAS6.png

@@ -1,0 +1,153 @@
+
+**Creare LBAAS tramite inserimento dati di input**
+==================================================
+
+1. Fare clic sul pulsante in alto a destra **Nuovo Load Balancer**:
+
+.. image:: img/15.61a_Creare_LBAAS_dati_input1.png
+
+|
+
+Comparirà la seguente schermata:
+
+.. image:: img/15.61a_Creare_LBAAS_dati_input2.png
+
+|
+
+Compilare i campi indicati:
+
+- inserire manualmente il nome del Load Balancer
+
+- inserire manualmente la password
+
+- selezionare il Security Group dal relativo menù a tendina
+
+- selezionare il Template dal relativo menù a tendina
+
+- selezionare il Flavour dal relativo menù a tendina
+
+- selezionare la Subnet dal relativo menù a tendina
+
+.. image:: img/15.61a_Creare_LBAAS_dati_input3.png
+
+|
+
+**Alias Configurazione**
+************************
+
+Per configurare l'**alias** inserire il nome nell'apposita casella in basso a sinistra:
+
+.. image:: img/15.61a_Creare_LBAAS_dati_input4.png
+
+|
+
+Il relativo tasto "+" diventerà cliccabile:
+
+.. image:: img/15.61a_Creare_LBAAS_dati_input5.png
+
+|
+
+Cliccare tale "+" per far comparire la sezione dell'alias appena creato. Quindi cliccare sul simbolo a fianco al nome
+per allargare la sezione e poter inserire i dati richiesti:
+
+.. image:: img/15.61a_Creare_LBAAS_dati_input6.png
+
+|
+
+La sezione dell'alias espansa sarà la seguente:
+
+.. image:: img/15.61a_Creare_LBAAS_dati_input7.png
+
+|
+
+Compilare i campi indicati:
+
+- inserire manualmente l'FQDN
+
+- selezionare la porta 80 oppure 443 dal relativo menù a tendina
+
+- selezionare il protocollo HTTP oppure HTTPS dal relativo menù a tendina
+
+- se necessario incollare un certificato nella voce "Certificato (PEM)"
+
+- se necessario flaggare "Redirect HTTP" oppure "Sticky Sessions"
+
+- se necessario inserire un IP in "White list"
+
+.. image:: img/15.61a_Creare_LBAAS_dati_input8.png
+
+|
+
+**Nome Backend**
+****************
+
+Per configurare il **backend** inserire il nome nell'apposita casella in basso:
+
+.. image:: img/15.61a_Creare_LBAAS_dati_input9.png
+
+|
+
+Il relativo tasto "+" diventerà cliccabile:
+
+.. image:: img/15.61a_Creare_LBAAS_dati_input10.png
+
+|
+
+Cliccare tale "+" per far comparire la sezione del backend appena creato. Quindi cliccare sul simbolo a fianco al nome
+per allargare la sezione e poter inserire i dati richiesti:
+
+.. image:: img/15.61a_Creare_LBAAS_dati_input11.png
+
+|
+
+La sezione dell'alias espansa sarà la seguente:
+
+.. image:: img/15.61a_Creare_LBAAS_dati_input12.png
+
+|
+
+Compilare i campi indicati:
+
+- inserire manualmente il nome della VM oppure l'indirizzo IP
+
+- inserire manualmente la porta
+
+- selezionare il protocollo HTTP oppure HTTPS dal relativo menù a tendina
+
+.. image:: img/15.61a_Creare_LBAAS_dati_input13.png
+
+|
+
+Ripetere tutte le operazioni descritte per ogni ulteriore alias richiesto:
+
+.. image:: img/15.61a_Creare_LBAAS_dati_input14.png
+
+|
+
+E' possibile utilizzare i tasti **Duplica** e **Cancella** per duplicare gli alias creati, oppure per cancellarli:
+
+.. image:: img/15.61a_Creare_LBAAS_dati_input15.png
+
+|
+
+Al termine cliccare sul tasto in basso a destra **INVIA**
+
+.. image:: img/15.61a_Creare_LBAAS_dati_input16.png
+
+|
+
+Comparirà il seguente messaggio di conferma:
+
+.. image:: img/15.61a_Creare_LBAAS_dati_input17.png
+
+|
+
+Il Load Balancer in creazione assumerà il seguente stato transitorio:
+
+.. image:: img/15.61a_Creare_LBAAS_dati_input18.png
+
+|
+
+Al termine della creazione assumerà lo stato "available":
+
+.. image:: img/15.61a_Creare_LBAAS_dati_input19.png

@@ -1,0 +1,19 @@
+
+**Cancellare LBAAS**
+====================
+
+Per cancellare un LBAAS occorre selezionarne uno, quindi cliccare sull'icona in alto a destra "**Elimina Load Balancer**":
+
+.. image:: img/15.67_Cancellare_LBAAS1.png
+
+|
+
+Comparirà la seguente richiesta di conferma di cancellazione:
+
+.. image:: img/15.67_Cancellare_LBAAS2.png
+
+|
+
+Una volta cliccato su **CONFERMA**, comparirà il seguente messaggio di cancellazione in corso:
+
+.. image:: img/15.67_Cancellare_LBAAS3.png
