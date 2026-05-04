@@ -5,21 +5,6 @@
 **Portale**
 ***********
 
-*Versione 4.23.0*
-
-*Data prevista: aprile 2026*
-
-*Nuove funzionalità/Improvement*
-
-- Load Balancer
-
-
-*Bug fixing*
-
-- risoluzione bug fix minori
-
-|
-
 *Versione 4.24.0*
 
 *Data prevista: maggio 2026*

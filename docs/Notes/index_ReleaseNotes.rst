@@ -5,6 +5,28 @@
 **Portale**
 ***********
 
+.. _release-4.23.0:
+
+Service Portal 4.23.0 (2026-05-04)
+----------------------------------
+
+*Nuove funzionalità/Improvement*
+
+- Gestione Load Balancer as a Service
+
+- Gestione Anagrafica tags sull'account
+
+- Controllo sulla generazione automatica dei reports CSV per account
+
+- Possibilità di inserire ticket per malfunzionamenti del Service Portal
+
+
+*Bug fixing*
+
+- risoluzione bug fix minori
+
+|
+
 .. _release-4.22.2:
 
 Service Portal 4.22.2 (2026-04-02)
