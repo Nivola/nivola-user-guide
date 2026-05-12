@@ -43,59 +43,70 @@ Se la risorsa desiderata dovesse essere una Share, la lista delle Shares si trov
 La voce VM, ad esempio, porterà alla lista di tutte le VM dell’account.
 
 Per associare un Tag ad una risorsa specifica, bisognerà selezionare la risorsa desiderata e cliccare sul pulsante “Pannello gestione VM”
-(ogni tipo di risorsa avrà il suo Pannello di gestione, in questo caso VM)
+(ogni tipo di risorsa avrà il suo Pannello di gestione, in questo caso VM):
 
 .. image:: img/24.5_tag15.png
 
 |
 
-Verrà quindi mostrata la schermata di gestione dove saranno presenti tutte le caratteristiche della risorsa, tra cui anche gli eventuali Tags già presenti
+Verrà quindi mostrata la schermata di gestione dove saranno presenti tutte le caratteristiche della risorsa, tra cui, al fondo, anche gli eventuali Tags già presenti:
 
 .. image:: img/24.5_tag17.png
 
 |
 
-Per aggiungere il Tag bisognerà semplicemente digitare la stringa alfanumerica desiderata
+Per aggiungere il Tag occorre cliccare sul tasto "+":
 
-.. image:: img/24.5_tag28.png
+.. image:: img/24.5_tag41.png
 
-Quindi premere **INVIO**. 
-Il tag appena creato apparirà di colore grigio
+|
 
-.. image:: img/24.5_tag29.png
+Dalla lista che apparirà, occorre individuare e cliccare sul tag prescelto:
 
-A conferma dell'associazione del Tag alla risorsa, comparirà il seguente messaggio
+.. image:: img/24.5_tag42.png
 
-.. image:: img/24.5_tag30.png
+|
+
+Un messaggio in verde in alto a destra darà conferma dell'avvenuta operazione
+
+.. image:: img/24.5_tag43.png
+
+|
+
+Il tag apparirà come nuova informazione dell'oggetto:
+
+.. image:: img/24.5_tag44.png
+
+|
 
 |
 
 **Associazione Tag ad tutte le risorse di un account**
 ******************************************************
 
-Nel caso in cui si volesse associare un Tag a TUTTE le risorse di un account, occorre accedere al menù dell'**Anagrafica prodotto** 
-(presente all'interno di **Gestione account**)
+Nel caso in cui si volesse associare un Tag a TUTTE le risorse di un account, occorre accedere al menù dell'**Gestione Tags** ,
+presente all'interno di **Gestione account**:
 
-.. image:: img/14.7_Lavorare_con_TAG1.png
-
-|
-
-Selezionare l'Anagrafica prodotto, cliccando sulla casella alla sinistra del nome. Poi cliccare sul pulsante in alto a destra la cui descrizione, 
-passandoci sopra col mouse, è "Associa i tag"
-
-.. image:: img/14.7_Lavorare_con_TAG2.png
+.. image:: img/14.17_Lavorare_con_TAG11.png
 
 |
 
-Comparirà la seguente schermata di conferma
+Selezionare il tag desiderato, cliccando sulla casella alla sinistra del nome. Poi cliccare sul pulsante in alto a destra la cui descrizione, 
+passandoci sopra col mouse, è "Associa i tag":
 
-.. image:: img/14.7_Lavorare_con_TAG3.png
+.. image:: img/14.7_Lavorare_con_TAG12.png
 
 |
 
-Una volta confermata, un messaggio in verde in alto a destra darà conferma dell'avvenuta operazione
+Comparirà la seguente schermata di conferma:
 
-.. image:: img/14.7_Lavorare_con_TAG4.png
+.. image:: img/14.7_Lavorare_con_TAG13.png
+
+|
+
+Una volta confermata, un messaggio in verde in alto a destra darà conferma dell'avvenuta operazione:
+
+.. image:: img/14.7_Lavorare_con_TAG14.png
 
 |
 
@@ -105,13 +116,13 @@ Una volta confermata, un messaggio in verde in alto a destra darà conferma dell
 ******************************************
 
 Se si desidera eliminare un Tag da una risorsa specifica, basterà selezionare la risorsa, andare nel suo pannello di gestione e cliccare 
-sulla **X** del codice da eliminare
+sulla **X** alla destra della label:
 
-.. image:: img/24.5_tag31.png
+.. image:: img/24.5_tag51.png
 
 Comparirà il seguente messaggio di conferma finale
 
-.. image:: img/24.5_tag21.png
+.. image:: img/24.5_tag52.png
 
 |
 
@@ -123,13 +134,13 @@ Comparirà il seguente messaggio di conferma finale
 In questa sezione della guida verrà spiegato come generare i report filtrandoli per Tag e per mese.
 
 La funzione rientra nel menù **Gestione account**. La generazione dei report filtrati per Tag e mese è attivabile dalla parte sinistra dello schermo, 
-cliccando sulla label **Report**
+cliccando sulla label **Report**:
 
 .. image:: img/24.5_tag100.png
 
 |
 
-A seguito di un click su **Report**, il sistema permetterà di accedere alle pagina **Lista Report**
+A seguito di un click su **Report**, il sistema permetterà di accedere alle pagina **Lista Report**:
 
 .. image:: img/24.5_tag101.png
 
@@ -137,13 +148,13 @@ A seguito di un click su **Report**, il sistema permetterà di accedere alle pag
 
 All'interno della prima sezione occorre:
 
-- impostare uno o più tag dal primo campo denominato "Elenco Tags". Per far comparire la lista dei tag associati alle risorse dell'account è sufficiente cliccare in un punto qualsiasi di tale campo
+- impostare uno o più tag dal primo campo denominato "Elenco Tags". Per far comparire la lista dei tag associati alle risorse dell'account è sufficiente cliccare in un punto qualsiasi di tale campo:
 
 .. image:: img/24.5_tag102.png
 
 |
 
-- impostare il mese dal secondo campo denominato "Periodo report". Per far comparire la lista dei mesi cliccare sull'icona sulla sinistra a forma di calendario
+- impostare il mese dal secondo campo denominato "Periodo report". Per far comparire la lista dei mesi cliccare sull'icona sulla sinistra a forma di calendario:
 
 .. image:: img/24.5_tag103.png
 
@@ -153,7 +164,7 @@ All'interno della prima sezione occorre:
 
 |
 
-- cliccare su **SCARICA IL REPORT** per effettuare il download in locale del report
+- cliccare su **SCARICA IL REPORT** per effettuare il download in locale del report:
 
 .. image:: img/24.5_tag104.png
 

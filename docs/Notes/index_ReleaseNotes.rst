@@ -5,6 +5,17 @@
 **Portale**
 ***********
 
+.. _release-4.23.1:
+
+Service Portal 4.23.1 (2026-05-11)
+----------------------------------
+
+*Bug fixing*
+
+- risoluzione bug fix minori
+
+|
+
 .. _release-4.23.0:
 
 Service Portal 4.23.0 (2026-05-04)

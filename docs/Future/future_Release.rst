@@ -11,7 +11,7 @@
 
 *Nuove funzionalità/Improvement*
 
-- TBD
+- ECaaS
 
 
 *Bug fixing*
@@ -23,9 +23,31 @@
 **Cloud Management Platform**
 *****************************
 
-*Versione 1.18.x (patch)*
+*Versione 1.18.5 (patch)*
 
-*Data prevista: maggio 2026*
+*Data prevista: giovedì 14 maggio 2026*
+
+*Nuove funzionalità e improvement*
+
+- ECAAS definition, capability for SDP
+
+- ECAAS namespace: check unique namespace, check codice ente
+
+- Batch import codice linee cliente
+
+- Aggiunte informazioni circa la disponibilità di indirizzi IP tra i dettagli delle site-network di Nivola
+
+- API che restituisce, dato un account, l'elenco dei plugintype disponibili
+
+- LBAAS Ip alla creazione
+
+*Bug fixing*
+
+- Fix get_normalized_os per image Rocky (metriche vm_None_<hypervisor>)
+
+- Fix create image: check definition service type ComputeImageSync
+
+- CLI msg warning before creating site network
 
 |
 
