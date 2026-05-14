@@ -108,7 +108,7 @@ La sezione dell'alias espansa sarà la seguente:
 
 Compilare i campi indicati:
 
-- inserire manualmente il nome della VM oppure l'indirizzo IP
+- selezionare la VM dal relativo menù a tendina
 
 - inserire manualmente la porta
 
